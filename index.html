@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Конвертер валют</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section class="currency">
+        <div class="container">
+            <div class="currency__inner">
+                <h2 class="currency__title">
+                    Конвертер валют
+                </h2>
+                <div class="currency__board">
+                    <label class="currency__from" name="From">
+                        из:
+                        <select>
+                            <option value="USD">USD</option>
+                            <option value="RUB">RUB</option>
+                            <option value="EUR">EUR</option>
+                            <option value="GBP">GBP</option>
+                        </select>
+                    </label>
+                    <button type="button" class="currency__board-button">
+                        <img src="images/arrows.svg" alt="arrows">
+                    </button>
+                    <label class="currency__to" name="To">
+                        в:
+                        <select>
+                            <option value="USD">USD</option>
+                            <option value="RUB">RUB</option>
+                            <option value="EUR">EUR</option>
+                            <option value="GBP">GBP</option>
+                        </select>
+                    </label>
+                </div>
+                <label class="currency__amount">
+                    Сумма:
+                    <input type="text">
+                </label>
+                <button class="currency__button" type="button">
+                    Конвертировать
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
